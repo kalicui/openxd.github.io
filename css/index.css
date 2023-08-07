@@ -1,0 +1,109 @@
+/* Reset some default styles */
+
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    transition: transform 0.3s ease;
+  }
+
+  nav.hidden {
+    transform: translateY(-100%);
+  }
+  
+  /* 假设内容区域 */
+  .content {
+    padding: 20px;
+    margin-top: 50px; /* 为了避免内容被导航栏遮挡 */
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 2em;
+}
+
+.about,
+.services,
+.goweb,
+.contact {
+    padding: 2em;
+    margin: 2em 0;
+    background-color: #fff;
+}
+
+.about h2,
+.services h2,
+.contact h2 {
+    margin-bottom: 1em;
+}
+
+.services ul {
+    list-style-type: disc;
+    margin-left: 2em;
+}
+
+.contact a {
+    color: #007bff;
+}
+
+.copyLink{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.gowebb a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.gowebb a:hover{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.goweb a:active{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.gowebb{
+    
+}
+
